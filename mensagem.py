@@ -5,3 +5,4 @@ def mensagem_personalizada(nome):
 if __name__ == '__main__':
     nome_usuario = input("Digite seu nome: ")
     print(mensagem_personalizada(nome_usuario))
+# Este é um projeto CI/CD
