@@ -1,7 +1,9 @@
-
-def mensagem_personalizada(nome):
-    return f"Olá, {nome}! Seja bem-vindo(a) ao seu primeiro projeto CI/CD no GitHub!"
-
-if __name__ == '__main__':
-    nome_usuario = input("Digite seu nome: ")
-    print(mensagem_personalizada(nome_usuario))
+def saudacao(hora):
+    if 6 <= hora < 12:
+        return "Bom dia!"
+    elif 12 <= hora < 18:
+        return "Boa tarde!"
+    elif 18 <= hora <= 23:
+        return "Boa noite!"
+    else:
+        return "Boa madrugada!"
